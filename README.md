@@ -21,5 +21,6 @@ Kittygram — социальная сеть для обмена фотограф
    ```
 4. Установитbashе зависимости из файла requirements.txt:
    ```pip install -r requirements.txt```
-5. Выполните миграции
-   ```sh python manage.py migrate```
+6. Выполните миграции
+   ```sh
+   python manage.py migrate```
