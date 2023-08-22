@@ -12,7 +12,7 @@ Kittygram — социальная сеть для обмена фотограф
 
 ## Установка
 
-1. Клонируйте реппозиторий `bash git clone https://github.com/anofelesoff/infra_sprint1.git`
+1. Клонируйте реппозиторий ```bash git clone https://github.com/anofelesoff/infra_sprint1.git```
 2. Перейдите в папку проекта `cd infra_sprint1`
 3. [Создайте и активируйте виртуальное окружение](https://docs.python.org/3/library/venv.html) для проекта:
    ```bash
