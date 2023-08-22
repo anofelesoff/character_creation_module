@@ -24,4 +24,5 @@ Kittygram — социальная сеть для обмена фотограф
 6. Выполните миграции
    
    ```bash
-   python manage.py migrate```
+   python manage.py migrate
+   ```
