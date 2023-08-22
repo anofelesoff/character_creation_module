@@ -23,5 +23,5 @@ Kittygram — социальная сеть для обмена фотограф
    ```pip install -r requirements.txt```
 6. Выполните миграции
    
-   `sh
+   `bash
    python manage.py migrate`
