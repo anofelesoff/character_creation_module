@@ -13,16 +13,11 @@ Kittygram — социальная сеть для обмена фотограф
 ## Установка
 
 1. Клонируйте реппозиторий `bash git clone https://github.com/anofelesoff/infra_sprint1.git`
-2. Перейдите в папку проекта 
-3. [Создайте виртуальное окружение](https://docs.python.org/3/library/venv.html) для проекта:
-
+2. Перейдите в папку проекта `cd infra_sprint1`
+3. [Создайте и активируйте виртуальное окружение](https://docs.python.org/3/library/venv.html) для проекта:
    ```bash
    python3 -m venv venv
    source venv/bin/activate
    ```
-   
-1. Кл репозиторий:
-`git clone https://github.com/anofelesoff/infra_sprint1.git`
-
-4. Перейдите в директорию проекта: `cd название-репозитория`
-5. Создайте и активируйте виртуальное окружение:
+4. Установитbashе зависимости из файла requirements.txt:
+   ```bash pip install -r requirements.txt```
