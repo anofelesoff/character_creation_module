@@ -16,19 +16,22 @@ Kittygram — социальная сеть для обмена фотограф
    ```bash
    git clone https://github.com/anofelesoff/infra_sprint1.git
    ```
-3. Перейдите в папку проекта `cd infra_sprint1`
-4. [Создайте и активируйте виртуальное окружение](https://docs.python.org/3/library/venv.html) для проекта:
+3. Перейдите в папку проекта
+   ```bash
+   cd infra_sprint1
+   ```
+5. [Создайте и активируйте виртуальное окружение](https://docs.python.org/3/library/venv.html) для проекта:
 
    ```bash
    python3 -m venv venv
    source venv/bin/activate
    ```
-5. Установитbashе зависимости из файла requirements.txt:
+6. Установитbashе зависимости из файла requirements.txt:
 
    ```bash
    pip install -r requirements.txt
    ```
-6. Выполните миграции
+7. Выполните миграции
    
    ```bash
    python manage.py migrate
